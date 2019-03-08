@@ -3,6 +3,7 @@ var input = [
   { x: 12, y: 5 },
   { x: 8, y: 15 }
 ];
+
 var result = input.map(num => Math.sqrt(num.x * num.x + num.y * num.y));
 
 console.log(result[0] === 5);
